@@ -12,11 +12,13 @@ Install the required dependencies:
 ``shell
 pip install -r requirements.txt``
 **Usage**
-``shell
+
+``python
 python proxy_checker.py``
+
 Follow the prompts to select a protocol, specify the number of threads to use, and provide target URLs for testing.
 
-***Dependencies***
+**Dependencies:**
 colorama
 requests
 tabulate
