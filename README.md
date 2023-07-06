@@ -16,7 +16,7 @@ pip install -r requirements.txt``
 python proxy_checker.py``
 Follow the prompts to select a protocol, specify the number of threads to use, and provide target URLs for testing.
 
-__Dependencies__
+***Dependencies***
 colorama
 requests
 tabulate
