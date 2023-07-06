@@ -6,10 +6,9 @@ This script is used to scrape & check the status and response time of proxy serv
 Clone the repository:
 
 ``
-shell
 git clone https://github.com/your/repo.git``
 Install the required dependencies:
-``python
+``
 pip install -r requirements.txt``
 **Usage**
 
