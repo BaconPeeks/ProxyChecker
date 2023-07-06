@@ -7,6 +7,8 @@ Clone the repository:
 
 ``
 git clone [https://github.com/your/repo.git](https://github.com/BaconPeeks/ProxyScraper``
+
+
 Install the required dependencies:
 ``
 pip install -r requirements.txt``
