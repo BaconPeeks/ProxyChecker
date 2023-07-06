@@ -9,8 +9,8 @@ Clone the repository:
 shell
 git clone https://github.com/your/repo.git``
 Install the required dependencies:
-``shell
-pip install -r requirements.txt``
+```python
+pip install -r requirements.txt```
 **Usage**
 
 ``python
