@@ -1,0 +1,55 @@
+{
+  "output_filename": "proxylist.txt",
+  "log_file": "proxy_checker.log",
+  "target_urls": [
+    "http://icanhazip.com/",
+    "http://ipv4.icanhazip.com/"
+  ],
+  "proxy_sources": {
+    "HTTPS": [
+      "https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=500&country=all",
+      "https://proxy.webshare.io/proxy/list",
+      "https://www.proxyscan.io/download?type=http",
+      "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
+      "https://www.proxy-list.download/api/v1/get?type=http",
+      "https://www.proxy-list.download/api/v1/get?type=http&anon=elite",
+      "https://www.proxyscan.io/download?type=http&anon=elite",
+      "https://free-proxy-list.net/",
+      "https://www.sslproxies.org/",
+      "https://www.proxy-list.org/english/index.php?p=1"
+    ],
+    "SOCKS4": [
+      "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=500&country=all",
+      "https://www.proxyscan.io/download?type=socks4",
+      "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
+      "https://www.proxy-list.download/api/v1/get?type=socks4",
+      "https://www.proxy-list.download/api/v1/get?type=socks4&anon=elite",
+      "https://www.proxyscan.io/download?type=socks4&anon=elite",
+      "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt",
+      "https://www.proxynova.com/proxy-server-list/",
+      "https://www.socks-proxy.net/",
+      "https://proxy-daily.com/"
+    ],
+    "SOCKS5": [
+      "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=500&country=all",
+      "https://www.proxyscan.io/download?type=socks5",
+      "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
+      "https://www.proxy-list.download/api/v1/get?type=socks5",
+      "https://www.proxy-list.download/api/v1/get?type=socks5&anon=elite",
+      "https://www.proxyscan.io/download?type=socks5&anon=elite",
+      "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
+      "https://www.proxynova.com/proxy-server-list/",
+      "https://www.socks-proxy.net/",
+      "https://proxy-daily.com/"
+    ]
+  },
+  "protocols": {
+    "1": "HTTPS",
+    "2": "SOCKS4",
+    "3": "SOCKS5"
+  },
+  "retries": 1,
+  "delay": 1,
+  "timeout": 5,
+  "threads": 10
+}
