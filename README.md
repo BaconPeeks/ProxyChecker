@@ -1,6 +1,6 @@
-====================================================================
+
                          Proxy Checker Script
-====================================================================
+
 
 The Proxy Checker script is a tool that allows you to test and validate a list of proxies for their usability. It checks the proxies by sending requests to specified target URLs and verifies their status codes and response times. The script provides a summary of the testing results, including the count of good and bad proxies.
 
