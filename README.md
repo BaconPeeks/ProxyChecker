@@ -17,7 +17,7 @@ Usage:
    - Navigate to the directory containing the script and configuration file.
    - Execute the following command:
      ```
-     python script.py
+     python proxies.py
      ```
 
 3. Protocol Selection:
